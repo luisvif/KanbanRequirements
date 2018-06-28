@@ -1,0 +1,36 @@
+<repast.simphony.data2.engine.DataSetDescriptor>
+  <name>Aggregate</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>true</inclBatchRun>
+  <inclRandomSeed>true</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>0.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>ONE_TIME</frequency>
+    <hashCode>1975431839</hashCode>
+  </scheduleParams>
+  <atEnd>true</atEnd>
+  <methodDataSources class="linked-hash-map"/>
+  <countSources class="linked-hash-map">
+    <entry>
+      <string>req</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>KanbanRequirements.Requirement</typeName>
+        <id>req</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>req_KB</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>KanbanRequirements.RequirementKB</typeName>
+        <id>req_KB</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+  </countSources>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

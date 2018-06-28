@@ -1,0 +1,6 @@
+<?xml version="1.0" ?><sweep runs="10">
+<parameter name="NumIteraciones" type="constant" constant_type="int" value="20000"></parameter>
+<parameter name="Dimensiones" type="constant" constant_type="int" value="20"></parameter>
+<parameter name="ProbRS" type="number" number_type="int" start="1000" end="5000" step="100"></parameter>
+<parameter name="EsfuerzoMax" type="list" value_type="int" values="10 20"></parameter>
+</sweep>

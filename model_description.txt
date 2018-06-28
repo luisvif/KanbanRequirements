@@ -1,0 +1,3 @@
+Modelo comparativo de gestión de requerimientos por ingenieros de sistemas
+Metodología clásica o waterfall frente a ágil tipo kanban.
+(C) Luis Villar Fidalgo.
